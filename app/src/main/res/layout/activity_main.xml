@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003A3030"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Kalkulator Bidang Datar ! "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Irfan Dani Syahputra"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persegi"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/sisi1"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/sisi"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/hitungpersegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung !"
+            android:onClick="hitungpersegi"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hasilpersegi"
+        android:layout_width="410dp"
+        android:layout_height="43dp"
+        android:textAlignment="center" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segitiga"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/alassegitiga"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number" />
+
+        <EditText
+            android:id="@+id/tinggisegitiga"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/hitungsegitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung !"
+            android:onClick="hitungsegitiga"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hasilsegitiga"
+        android:layout_width="410dp"
+        android:layout_height="43dp"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lingkaran"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/jarijarilingkaran"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/hitunglingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung !"
+        android:textAlignment="center"
+        android:onClick="hitunglingkaran"/>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/hasillingkaran"
+        android:layout_width="410dp"
+        android:layout_height="43dp"
+        android:textAlignment="center" />
+
+
+
+
+
+
+
+
+</LinearLayout>
